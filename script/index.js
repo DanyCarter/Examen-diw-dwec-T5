@@ -25,7 +25,7 @@ message.value.trim().length === 0 && mensajeErrores.push('Debe insertar un mensa
 
 if(mensajeErrores.length === 0 && confirm('¿Estas seguro que desea enviar el formulario')){
     
-    formulario.submit()
+    formulario.submit()  
     
     }else if(mensajeErrores.length > 0 ){
         errores.textContent = ""
