@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="hero-title">
+        <div class="title-container">
+            <h1></h1>
+            <span></span>
+        </div>
+    </div>
+
+    <h2 class="contact">Contactanos</h2>
+
+    <div class="container-form">
+
+        <form action="/templates/enviocorreo.html" method="get" id="form">
+
+            <input type="text" name="name" id="name" placeholder="Nombre">
+            <input type="text" name="email" id="email" placeholder="Correo electrónico">
+
+            <label for="solicitud">Solicitud de informacion adicional<input type="radio" name="reserva" id="opt1"></label>
+            <label for="reserva">Reserva de una ruta <input type="radio" name="reserva" id="opt2" checked></label>
+            
+            <button id="info">Info</button>
+
+            <input type="text" name="message" id="message" placeholder="Por favor, inserta un mensaje">
+
+            <input type="submit" name="send" id="send" placeholder="Enviar">
+        
+            <input type="text" name="errores" id="errores">
+
+            <ul id="errores"></ul>
+
+        </form>
+
+    </div>
+    
+</body>
+
+<script src="/script/index.js"></script>
+</html>

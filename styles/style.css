@@ -1,0 +1,140 @@
+:root{
+    --h1-font-size: 3rem;
+    --span-font-size: 1.5rem;
+    --input-size: 10.75rem;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --h1-font-size: 4rem;
+    --span-font-size: 1.5rem;
+    --input-size: 15.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --h1-font-size: 5rem;
+    --span-font-size: 2.5rem;
+    --input-size: 20.75rem;
+  }
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url(/assets/Oswald-VariableFont_wght.ttf);
+}
+
+.hero-title{
+    background: url(../assets/img/forest.jpg) center/cover;
+    width: 100%;
+/*     position: relative;*/
+    height: 50vh;
+    clip-path: ellipse(50% 50%);
+    margin-bottom: 3em;
+}
+
+
+
+*,
+::after,
+::before {
+/*   box-sizing: border-box; */ 
+  font-family: Instrument Serif, sans-serif;
+}
+
+
+
+.container-form{
+  margin-top: 5em;
+  content: "";
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  opacity: 0.7;
+
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 20em;
+  margin: auto;
+  padding-top: 3em ;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: Oswald;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#opt1{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  height: 2em;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  background-color: rgb(220, 220, 220);
+  
+}
+
+#send{
+  background-color: rgb(63, 63, 228);
+  color: white;
+  border-radius: 5px;
+  width: 9em;
+  height: 3em;
+}
+#send:hover{
+  background-color: rgb(0, 5, 102);
+  color: white;
+  border-radius: 5px;
+  width: 9em;
+  height: 3em;
+}
+
+button{
+  background-color: rgb(45, 45, 190);
+  color: white;
+  border-radius: 5px;
+  width: 9em;
+  height: 3em;
+}
+
+
+button:hover{
+  background-color: rgb(0, 5, 102);
+  color: white;
+  border-radius: 5px;
+  width: 9em;
+  height: 3em;
+}
+
+
+
+/* .container-form::before {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+ */
