@@ -33,7 +33,7 @@ if(mensajeErrores.length === 0 && confirm('¿Estas seguro que desea enviar el fo
         mensajeErrores.forEach(function(message){
             const miLi = document.createElement("li")
             miLi.textContent = message
-            errores.appendChild(miLi)
+            errores.appendChild(miLi) 
         })
     }
 
@@ -42,4 +42,4 @@ if(mensajeErrores.length === 0 && confirm('¿Estas seguro que desea enviar el fo
 
 
 
-
+ 
